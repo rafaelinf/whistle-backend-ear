@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="whistle-backend-ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="whistle-backend-ejb.jar" deploy-path="/" handle="module:/resource/whistle-backend-ejb/whistle-backend-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="whistle-backend-ejbClient.jar" deploy-path="/" handle="module:/resource/whistle-backend-ejbClient/whistle-backend-ejbClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="whistle-backend-ws.war" deploy-path="/" handle="module:/resource/whistle-backend-ws/whistle-backend-ws">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="whistle-protocol.jar" deploy-path="/lib" handle="module:/resource/whistle-protocol/whistle-protocol">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="whistle-utils.jar" deploy-path="/lib" handle="module:/resource/whistle-utils/whistle-utils">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
